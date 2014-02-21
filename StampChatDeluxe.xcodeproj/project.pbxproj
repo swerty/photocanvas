@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000F3E2D18B5B7A6007C721A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000F3E2C18B5B7A6007C721A /* Foundation.framework */; };
+		000F3E2F18B5B7A6007C721A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000F3E2E18B5B7A6007C721A /* CoreGraphics.framework */; };
+		000F3E3118B5B7A6007C721A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000F3E3018B5B7A6007C721A /* UIKit.framework */; };
+		000F3E3718B5B7A7007C721A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 000F3E3518B5B7A7007C721A /* InfoPlist.strings */; };
+		000F3E3918B5B7A7007C721A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 000F3E3818B5B7A7007C721A /* main.m */; };
+		000F3E3D18B5B7A7007C721A /* SCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 000F3E3C18B5B7A7007C721A /* SCAppDelegate.m */; };
+		000F3E4018B5B7A7007C721A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000F3E3E18B5B7A7007C721A /* Main.storyboard */; };
+		000F3E4318B5B7A7007C721A /* SCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000F3E4218B5B7A7007C721A /* SCViewController.m */; };
+		000F3E4518B5B7A7007C721A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000F3E4418B5B7A7007C721A /* Images.xcassets */; };
+		000F3E4C18B5B7A7007C721A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000F3E4B18B5B7A7007C721A /* XCTest.framework */; };
+		000F3E4D18B5B7A7007C721A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000F3E2C18B5B7A6007C721A /* Foundation.framework */; };
+		000F3E4E18B5B7A7007C721A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000F3E3018B5B7A6007C721A /* UIKit.framework */; };
+		000F3E5618B5B7A7007C721A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 000F3E5418B5B7A7007C721A /* InfoPlist.strings */; };
+		000F3E5818B5B7A7007C721A /* StampChatDeluxeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 000F3E5718B5B7A7007C721A /* StampChatDeluxeTests.m */; };
+		000F3E7618B5D7F9007C721A /* blue2.png in Resources */ = {isa = PBXBuildFile; fileRef = 000F3E7318B5D7F9007C721A /* blue2.png */; };
+		000F3E7718B5D7F9007C721A /* green2.png in Resources */ = {isa = PBXBuildFile; fileRef = 000F3E7418B5D7F9007C721A /* green2.png */; };
+		000F3E7818B5D7F9007C721A /* red2.png in Resources */ = {isa = PBXBuildFile; fileRef = 000F3E7518B5D7F9007C721A /* red2.png */; };
+		003A69B018B6C1E400460645 /* 1392959073_icon-ios7-arrow-forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 003A69AC18B6C1E400460645 /* 1392959073_icon-ios7-arrow-forward.png */; };
+		003A69B118B6C1E400460645 /* 1392959080_icon-ios7-arrow-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 003A69AD18B6C1E400460645 /* 1392959080_icon-ios7-arrow-back.png */; };
+		003A69B218B6C1E400460645 /* 1392959144_write.png in Resources */ = {isa = PBXBuildFile; fileRef = 003A69AE18B6C1E400460645 /* 1392959144_write.png */; };
+		003A69B318B6C1E400460645 /* 1392959216_text.png in Resources */ = {isa = PBXBuildFile; fileRef = 003A69AF18B6C1E400460645 /* 1392959216_text.png */; };
+		003A69B518B6C78400460645 /* save-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 003A69B418B6C78400460645 /* save-32.png */; };
+		009F872918B6B8CD00AA5DB6 /* Stamp-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 009F872818B6B8CD00AA5DB6 /* Stamp-icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		000F3E4F18B5B7A7007C721A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000F3E2118B5B7A6007C721A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000F3E2818B5B7A6007C721A;
+			remoteInfo = StampChatDeluxe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000F3E2918B5B7A6007C721A /* StampChatDeluxe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StampChatDeluxe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000F3E2C18B5B7A6007C721A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		000F3E2E18B5B7A6007C721A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		000F3E3018B5B7A6007C721A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		000F3E3418B5B7A6007C721A /* StampChatDeluxe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StampChatDeluxe-Info.plist"; sourceTree = "<group>"; };
+		000F3E3618B5B7A7007C721A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		000F3E3818B5B7A7007C721A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		000F3E3A18B5B7A7007C721A /* StampChatDeluxe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StampChatDeluxe-Prefix.pch"; sourceTree = "<group>"; };
+		000F3E3B18B5B7A7007C721A /* SCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCAppDelegate.h; sourceTree = "<group>"; };
+		000F3E3C18B5B7A7007C721A /* SCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCAppDelegate.m; sourceTree = "<group>"; };
+		000F3E3F18B5B7A7007C721A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		000F3E4118B5B7A7007C721A /* SCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCViewController.h; sourceTree = "<group>"; };
+		000F3E4218B5B7A7007C721A /* SCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCViewController.m; sourceTree = "<group>"; };
+		000F3E4418B5B7A7007C721A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		000F3E4A18B5B7A7007C721A /* StampChatDeluxeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StampChatDeluxeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		000F3E4B18B5B7A7007C721A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		000F3E5318B5B7A7007C721A /* StampChatDeluxeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StampChatDeluxeTests-Info.plist"; sourceTree = "<group>"; };
+		000F3E5518B5B7A7007C721A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		000F3E5718B5B7A7007C721A /* StampChatDeluxeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StampChatDeluxeTests.m; sourceTree = "<group>"; };
+		000F3E7318B5D7F9007C721A /* blue2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue2.png; sourceTree = "<group>"; };
+		000F3E7418B5D7F9007C721A /* green2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green2.png; sourceTree = "<group>"; };
+		000F3E7518B5D7F9007C721A /* red2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red2.png; sourceTree = "<group>"; };
+		003A69AC18B6C1E400460645 /* 1392959073_icon-ios7-arrow-forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1392959073_icon-ios7-arrow-forward.png"; sourceTree = "<group>"; };
+		003A69AD18B6C1E400460645 /* 1392959080_icon-ios7-arrow-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1392959080_icon-ios7-arrow-back.png"; sourceTree = "<group>"; };
+		003A69AE18B6C1E400460645 /* 1392959144_write.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1392959144_write.png; sourceTree = "<group>"; };
+		003A69AF18B6C1E400460645 /* 1392959216_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1392959216_text.png; sourceTree = "<group>"; };
+		003A69B418B6C78400460645 /* save-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "save-32.png"; sourceTree = "<group>"; };
+		009F872818B6B8CD00AA5DB6 /* Stamp-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stamp-icon.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000F3E2618B5B7A6007C721A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000F3E2F18B5B7A6007C721A /* CoreGraphics.framework in Frameworks */,
+				000F3E3118B5B7A6007C721A /* UIKit.framework in Frameworks */,
+				000F3E2D18B5B7A6007C721A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000F3E4718B5B7A7007C721A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000F3E4C18B5B7A7007C721A /* XCTest.framework in Frameworks */,
+				000F3E4E18B5B7A7007C721A /* UIKit.framework in Frameworks */,
+				000F3E4D18B5B7A7007C721A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000F3E2018B5B7A6007C721A = {
+			isa = PBXGroup;
+			children = (
+				000F3E7318B5D7F9007C721A /* blue2.png */,
+				000F3E7418B5D7F9007C721A /* green2.png */,
+				000F3E7518B5D7F9007C721A /* red2.png */,
+				000F3E3218B5B7A6007C721A /* StampChatDeluxe */,
+				000F3E5118B5B7A7007C721A /* StampChatDeluxeTests */,
+				000F3E2B18B5B7A6007C721A /* Frameworks */,
+				000F3E2A18B5B7A6007C721A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000F3E2A18B5B7A6007C721A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000F3E2918B5B7A6007C721A /* StampChatDeluxe.app */,
+				000F3E4A18B5B7A7007C721A /* StampChatDeluxeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		000F3E2B18B5B7A6007C721A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				000F3E2C18B5B7A6007C721A /* Foundation.framework */,
+				000F3E2E18B5B7A6007C721A /* CoreGraphics.framework */,
+				000F3E3018B5B7A6007C721A /* UIKit.framework */,
+				000F3E4B18B5B7A7007C721A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		000F3E3218B5B7A6007C721A /* StampChatDeluxe */ = {
+			isa = PBXGroup;
+			children = (
+				000F3E3B18B5B7A7007C721A /* SCAppDelegate.h */,
+				000F3E3C18B5B7A7007C721A /* SCAppDelegate.m */,
+				000F3E3E18B5B7A7007C721A /* Main.storyboard */,
+				003A69B418B6C78400460645 /* save-32.png */,
+				009F872818B6B8CD00AA5DB6 /* Stamp-icon.png */,
+				000F3E4118B5B7A7007C721A /* SCViewController.h */,
+				000F3E4218B5B7A7007C721A /* SCViewController.m */,
+				003A69AC18B6C1E400460645 /* 1392959073_icon-ios7-arrow-forward.png */,
+				003A69AD18B6C1E400460645 /* 1392959080_icon-ios7-arrow-back.png */,
+				003A69AE18B6C1E400460645 /* 1392959144_write.png */,
+				003A69AF18B6C1E400460645 /* 1392959216_text.png */,
+				000F3E4418B5B7A7007C721A /* Images.xcassets */,
+				000F3E3318B5B7A6007C721A /* Supporting Files */,
+			);
+			path = StampChatDeluxe;
+			sourceTree = "<group>";
+		};
+		000F3E3318B5B7A6007C721A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				000F3E3418B5B7A6007C721A /* StampChatDeluxe-Info.plist */,
+				000F3E3518B5B7A7007C721A /* InfoPlist.strings */,
+				000F3E3818B5B7A7007C721A /* main.m */,
+				000F3E3A18B5B7A7007C721A /* StampChatDeluxe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		000F3E5118B5B7A7007C721A /* StampChatDeluxeTests */ = {
+			isa = PBXGroup;
+			children = (
+				000F3E5718B5B7A7007C721A /* StampChatDeluxeTests.m */,
+				000F3E5218B5B7A7007C721A /* Supporting Files */,
+			);
+			path = StampChatDeluxeTests;
+			sourceTree = "<group>";
+		};
+		000F3E5218B5B7A7007C721A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				000F3E5318B5B7A7007C721A /* StampChatDeluxeTests-Info.plist */,
+				000F3E5418B5B7A7007C721A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000F3E2818B5B7A6007C721A /* StampChatDeluxe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000F3E5B18B5B7A7007C721A /* Build configuration list for PBXNativeTarget "StampChatDeluxe" */;
+			buildPhases = (
+				000F3E2518B5B7A6007C721A /* Sources */,
+				000F3E2618B5B7A6007C721A /* Frameworks */,
+				000F3E2718B5B7A6007C721A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StampChatDeluxe;
+			productName = StampChatDeluxe;
+			productReference = 000F3E2918B5B7A6007C721A /* StampChatDeluxe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		000F3E4918B5B7A7007C721A /* StampChatDeluxeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000F3E5E18B5B7A7007C721A /* Build configuration list for PBXNativeTarget "StampChatDeluxeTests" */;
+			buildPhases = (
+				000F3E4618B5B7A7007C721A /* Sources */,
+				000F3E4718B5B7A7007C721A /* Frameworks */,
+				000F3E4818B5B7A7007C721A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000F3E5018B5B7A7007C721A /* PBXTargetDependency */,
+			);
+			name = StampChatDeluxeTests;
+			productName = StampChatDeluxeTests;
+			productReference = 000F3E4A18B5B7A7007C721A /* StampChatDeluxeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000F3E2118B5B7A6007C721A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SC;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Sean Wertheim";
+				TargetAttributes = {
+					000F3E4918B5B7A7007C721A = {
+						TestTargetID = 000F3E2818B5B7A6007C721A;
+					};
+				};
+			};
+			buildConfigurationList = 000F3E2418B5B7A6007C721A /* Build configuration list for PBXProject "StampChatDeluxe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000F3E2018B5B7A6007C721A;
+			productRefGroup = 000F3E2A18B5B7A6007C721A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000F3E2818B5B7A6007C721A /* StampChatDeluxe */,
+				000F3E4918B5B7A7007C721A /* StampChatDeluxeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000F3E2718B5B7A6007C721A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000F3E7718B5D7F9007C721A /* green2.png in Resources */,
+				000F3E4518B5B7A7007C721A /* Images.xcassets in Resources */,
+				003A69B018B6C1E400460645 /* 1392959073_icon-ios7-arrow-forward.png in Resources */,
+				000F3E7618B5D7F9007C721A /* blue2.png in Resources */,
+				003A69B318B6C1E400460645 /* 1392959216_text.png in Resources */,
+				000F3E3718B5B7A7007C721A /* InfoPlist.strings in Resources */,
+				003A69B118B6C1E400460645 /* 1392959080_icon-ios7-arrow-back.png in Resources */,
+				003A69B218B6C1E400460645 /* 1392959144_write.png in Resources */,
+				000F3E4018B5B7A7007C721A /* Main.storyboard in Resources */,
+				000F3E7818B5D7F9007C721A /* red2.png in Resources */,
+				009F872918B6B8CD00AA5DB6 /* Stamp-icon.png in Resources */,
+				003A69B518B6C78400460645 /* save-32.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000F3E4818B5B7A7007C721A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000F3E5618B5B7A7007C721A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000F3E2518B5B7A6007C721A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000F3E3D18B5B7A7007C721A /* SCAppDelegate.m in Sources */,
+				000F3E4318B5B7A7007C721A /* SCViewController.m in Sources */,
+				000F3E3918B5B7A7007C721A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000F3E4618B5B7A7007C721A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000F3E5818B5B7A7007C721A /* StampChatDeluxeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		000F3E5018B5B7A7007C721A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000F3E2818B5B7A6007C721A /* StampChatDeluxe */;
+			targetProxy = 000F3E4F18B5B7A7007C721A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		000F3E3518B5B7A7007C721A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				000F3E3618B5B7A7007C721A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		000F3E3E18B5B7A7007C721A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				000F3E3F18B5B7A7007C721A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		000F3E5418B5B7A7007C721A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				000F3E5518B5B7A7007C721A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		000F3E5918B5B7A7007C721A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		000F3E5A18B5B7A7007C721A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		000F3E5C18B5B7A7007C721A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StampChatDeluxe/StampChatDeluxe-Prefix.pch";
+				INFOPLIST_FILE = "StampChatDeluxe/StampChatDeluxe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		000F3E5D18B5B7A7007C721A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StampChatDeluxe/StampChatDeluxe-Prefix.pch";
+				INFOPLIST_FILE = "StampChatDeluxe/StampChatDeluxe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		000F3E5F18B5B7A7007C721A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StampChatDeluxe.app/StampChatDeluxe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StampChatDeluxe/StampChatDeluxe-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "StampChatDeluxeTests/StampChatDeluxeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		000F3E6018B5B7A7007C721A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StampChatDeluxe.app/StampChatDeluxe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StampChatDeluxe/StampChatDeluxe-Prefix.pch";
+				INFOPLIST_FILE = "StampChatDeluxeTests/StampChatDeluxeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000F3E2418B5B7A6007C721A /* Build configuration list for PBXProject "StampChatDeluxe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000F3E5918B5B7A7007C721A /* Debug */,
+				000F3E5A18B5B7A7007C721A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000F3E5B18B5B7A7007C721A /* Build configuration list for PBXNativeTarget "StampChatDeluxe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000F3E5C18B5B7A7007C721A /* Debug */,
+				000F3E5D18B5B7A7007C721A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000F3E5E18B5B7A7007C721A /* Build configuration list for PBXNativeTarget "StampChatDeluxeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000F3E5F18B5B7A7007C721A /* Debug */,
+				000F3E6018B5B7A7007C721A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000F3E2118B5B7A6007C721A /* Project object */;
+}
